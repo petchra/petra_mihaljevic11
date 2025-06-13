@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e6ccff; /* svijetlo ljubičasta */
+    color: #1a001a; /* tamno ljubičasta, skoro crna */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #330033;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #4d004d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #800080;
+}
+
+p, ul, ol, blockquote {
+    background-color: #f8f0ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+blockquote {
+    border-left: 5px solid #993399;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+img, video, iframe {
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #330033;
+    border-radius: 10px;
+}
+
+audio {
+    display: block;
+    margin: 10px auto;
+}
+}
+
